@@ -8,6 +8,7 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon.ico" />
 </head>
 
 <body>
@@ -24,6 +25,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="<?php echo BASE_URL; ?>lang/set/en">English</a></li>
                         <li><a href="<?php echo BASE_URL; ?>lang/set/pt-br">Português</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>lang/set/ita">Italiano</a></li>
                     </ul>
                 </li>
                 <li><a href="<?php echo BASE_URL; ?>login"><?php $this->lang->get('LOGIN'); ?></a></li>
